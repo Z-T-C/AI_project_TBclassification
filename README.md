@@ -5,7 +5,7 @@ get_data.py：获取数据集
 
 train_singlemode.py：模型训练代码，单模态（只使用图像数据）
 
-train_multi.py: 模型训练代码，多模态（使用图像+文本） * 旋转增强也在train_ .py里的 transforms 中实现 *
+train_multi.py: 模型训练代码，多模态（使用图像+文本） *旋转增强也在train_ .py里的 transforms 中实现*
 
 predict.py：测试代码。得到Acc，AUC混淆矩阵
 
@@ -16,6 +16,6 @@ text_pre.py：对文本数据预处理：提取年龄和性别数据并进行one
 
 models目录：
 
-models.ResNet.py：ResNet模型代码，* 多模态模型的代码也在这个文件的最后 (class Multimodal(nn.Module)）*。
+models.ResNet.py：ResNet模型代码，*多模态模型的代码也在这个文件的最后 (class Multimodal(nn.Module)）*。
 
 models.EfficientNet.py：EfficientNet模型代码。
