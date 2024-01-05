@@ -154,9 +154,7 @@ val_transforms = transforms.Compose([
     ])
 
 if __name__ == '__main__':
-
     plt.switch_backend('agg')
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
 
     device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
     # print(f"Using {device} device")
