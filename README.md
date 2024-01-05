@@ -5,7 +5,9 @@ get_data.py：获取数据集
 
 train_singlemode.py：模型训练代码，单模态（只使用图像数据）
 
-train_multi.py: 模型训练代码，多模态（使用图像+文本） **旋转增强也在train_ .py里的 transforms 中实现**
+train_multi.py: 模型训练代码，多模态（使用图像+文本） 
+
+**旋转增强也在train_ .py里的 transforms 中实现**
 
 predict.py：测试代码。得到Acc，AUC混淆矩阵
 
